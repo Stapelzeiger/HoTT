@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <string.h>
-#include "hottsumd.h"
 #include <fcntl.h>
 #include <errno.h>
 #include <termios.h>
 #include <unistd.h>
+#include "../sumd.h"
 
 int
 set_interface_attribs (int fd, int speed, int parity)

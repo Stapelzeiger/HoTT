@@ -1,4 +1,4 @@
-#include "hottsumd.h"
+#include "sumd.h"
 
 #define STATE_RESET             0
 #define STATE_VENDOR_RECEIVED   1
